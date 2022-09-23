@@ -33,13 +33,13 @@ The following tools help make it easier to run this code.
 ## 🔥 Getting Started
 
 If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
-[Download the ZIP from this location](https://github.com/altontonn/React-To-Do//archive/refs/heads/main.zip), or run the following [git clone](https://github.com/altontonn/React-To-Do/.git) command to clone the files to your machine:
+[Download the ZIP from this location](https://github.com/altontonn/React-Bookstore//archive/refs/heads/main.zip), or run the following [git clone](https://github.com/altontonn/React-Bookstore) command to clone the files to your machine:
 
 ```bash
-git clone https://github.com/altontonn/React-To-Do/.git
+git clone https://github.com/altontonn/React-Bookstore/.git
 ```
 
-- Once the files are downloaded or cloned on your machine, open the "React-To-Do" folder in [Visual Studio Code(VSCode)](https://code.visualstudio.com/)
+- Once the files are downloaded or cloned on your machine, open the "React-Bookstore" folder in [Visual Studio Code(VSCode)](https://code.visualstudio.com/)
 
 ## 🙎🏾‍♂️ Author
 
@@ -49,7 +49,7 @@ git clone https://github.com/altontonn/React-To-Do/.git
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/altontonn/React-To-Do//issues).
+Feel free to check the [issues page](https://github.com/altontonn/React-Bookstore//issues).
 
 ## Acknowledgements
 
@@ -61,4 +61,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/altontonn/React-To-Do//blob/basic-page/LICENSE) licensed.
+This project is [MIT](https://github.com/altontonn/React-Bookstore//blob/basic-page/LICENSE) licensed.
