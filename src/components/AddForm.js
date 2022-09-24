@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './form.module.css';
 
-class Home extends React.Component {
+class AddForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -46,4 +46,4 @@ class Home extends React.Component {
     );
   }
 }
-export default Home;
+export default AddForm;
