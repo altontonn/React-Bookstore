@@ -4,15 +4,14 @@ import styles from './form.module.css';
 class Home extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-    };
+    this.state = { };
   }
 
   render() {
     return (
       <div>
         <div>
-          <h1 className={styles.formHeader}>ADD A NEW BOOK</h1>
+          <h1 className={styles.formHeader}>ADD NEW BOOK</h1>
           <form className="form-container">
             <input
               type="text"
@@ -29,7 +28,7 @@ class Home extends React.Component {
               value=""
             />
             <select name="languages" className={styles.inputText}>
-              <option value="javascript">css</option>
+              <option value="javascript">Css3</option>
               <option value="php">PHP</option>
               <option value="java">Java</option>
               <option value="golang">Golang</option>
