@@ -1,10 +1,10 @@
-import React from 'react';
-import styles from './form.module.css';
+import React from "react";
+import styles from "./form.module.css";
 
 class Home extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { };
+    this.state = {};
   }
 
   render() {
@@ -37,7 +37,9 @@ class Home extends React.Component {
               <option value="C++">C++</option>
               <option value="erlang">Erlang</option>
             </select>
-            <button type="submit" className={styles.inputSubmit}>Submit</button>
+            <button type="submit" className={styles.inputSubmit}>
+              Submit
+            </button>
           </form>
         </div>
       </div>

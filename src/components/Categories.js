@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 class Category extends React.Component {
   constructor() {
@@ -9,7 +9,9 @@ class Category extends React.Component {
   render() {
     return (
       <div>
-        <button className="buttonCheck" type="submit">Check status</button>
+        <button className="buttonCheck" type="submit">
+          Check status
+        </button>
       </div>
     );
   }
