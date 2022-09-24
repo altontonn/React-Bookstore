@@ -61,4 +61,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/altontonn/React-Bookstore/blob/bookstore/LICENSE) licensed.
+This project is [MIT](https://github.com/altontonn/React-Bookstore/blob/dev/LICENSE) licensed.
