@@ -9,7 +9,9 @@ class Category extends React.Component {
   render() {
     return (
       <div>
-        <button className="buttonCheck" type="button">Check status</button>
+        <button className="buttonCheck" type="submit">
+          Check status
+        </button>
       </div>
     );
   }
