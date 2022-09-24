@@ -53,7 +53,7 @@ Feel free to check the [issues page](https://github.com/altontonn/React-Bookstor
 
 ## Acknowledgements
 
-- Microverse
+- Microverse.
 
 ## 👊🏾 Show your support
 
