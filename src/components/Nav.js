@@ -1,8 +1,8 @@
-import React from "react";
-import "../css/main.css";
-import { Link, Route, Routes } from "react-router-dom";
-import Book from "./Book";
-import Category from "./Categories";
+import React from 'react';
+import '../css/main.css';
+import { Link, Route, Routes } from 'react-router-dom';
+import Book from './Book';
+import Category from './Categories';
 
 class Nav extends React.Component {
   constructor(props) {

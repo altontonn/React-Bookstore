@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "./form.module.css";
+import React from 'react';
+import styles from './form.module.css';
 
 class Home extends React.Component {
   constructor(props) {
