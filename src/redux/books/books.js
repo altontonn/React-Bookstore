@@ -1,5 +1,5 @@
-const ADD_BOOK = 'ADD_BOOK';
-const DELETE_BOOK = 'DELETE_BOOK';
+const ADD_BOOK = 'REACT-BOOKSTORE/src/redux/books/ADD_BOOK';
+const DELETE_BOOK = 'REACT-BOOKSTORE/src/redux/books/DELETE_BOOK';
 export const booksReducer = (state = [], action) => {
   switch (action.type) {
     case ADD_BOOK:
