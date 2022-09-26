@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Books from './Books';
 import Category from './Categories';
+import Books from './Books';
 
 export default function RouteLink() {
   return (
