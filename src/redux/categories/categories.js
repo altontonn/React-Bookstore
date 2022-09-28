@@ -1,4 +1,4 @@
-const CHECKER = 'CHECKER';
+const CHECKER = 'REACT-BOOKSTORE/src/redux/books/CHECKER';
 
 export const checkAction = () => ({
   type: CHECKER,
