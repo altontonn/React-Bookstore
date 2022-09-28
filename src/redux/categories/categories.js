@@ -1,14 +1,11 @@
-const CHECKER = 'CHECKER';
+const CHECKER = 'REACT-BOOKSTORE/src/redux/books/CHECKER';
+const initialState = [];
+
+export const checkReducer = (state = initialState, action) => (
+  action.type === CHECKER ? action.text : state
+);
 
 export const checkAction = () => ({
   type: CHECKER,
+  text: 'Under Development',
 });
-
-export const checkReducer = (state = '', action) => {
-  switch (action.type) {
-    case CHECKER:
-      return 'Under Development';
-    default:
-      return state;
-  }
-};

@@ -14,7 +14,7 @@ class Nav extends React.Component {
       <div>
         <nav className="nav">
           <div className="nav-1">
-            <ul>
+            <ul className="ul">
               <li className="bookstore">Bookstore&nbsp;CMS</li>
               <li className="books">
                 <Link to="/">Books</Link>
