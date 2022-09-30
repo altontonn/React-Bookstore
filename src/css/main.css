@@ -19,6 +19,7 @@ body {
     height: 10rem;
   }
 }
+
 @media screen and (max-width: 500px) {
   .nav {
     height: 10rem;
@@ -128,7 +129,7 @@ body {
   padding: 2rem 9.188rem 1.625rem 1.688rem;
   border-radius: 4px;
   border: solid 1px #e8e8e8;
-  background-color: #fff
+  background-color: #fff;
 }
 
 .bookInfo {
@@ -155,6 +156,7 @@ body {
     display: flex;
     flex-direction: column;
   }
+
   .bookContainer {
     height: auto;
   }
@@ -240,6 +242,17 @@ body {
   border: 1px solid #cdcbd0;
 }
 
+.mask .fill {
+  clip: rect(0, 3rem, 4.5rem, 0);
+  background-color: #227ded;
+}
+
+.mask.full,
+.circle .fill {
+  animation: fill ease-in-out 3s;
+  transform: rotate(108deg);
+}
+
 .circle-wrap .circle .mask,
 .circle-wrap .circle .fill {
   width: 4.5rem;
@@ -248,19 +261,8 @@ body {
   border-radius: 50%;
 }
 
-.mask .fill {
-  clip: rect(0px, 3rem, 4.5rem, 0px);
-  background-color: #227ded;
-}
-
 .circle-wrap .circle .mask {
-  clip: rect(0px, 4.5rem, 4.5rem, 2rem);
-}
-
-.mask.full,
-.circle .fill {
-  animation: fill ease-in-out 3s;
-  transform: rotate(108deg);
+  clip: rect(0, 4.5rem, 4.5rem, 2rem);
 }
 
 .statusLoad {
@@ -281,7 +283,6 @@ body {
   letter-spacing: normal;
   color: #121212;
 }
-
 
 @keyframes fill {
   0% {
