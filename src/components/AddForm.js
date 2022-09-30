@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { v4 as uid } from 'uuid';
 import { useDispatch } from 'react-redux';
 import styles from './form.module.css';
 import { addBook } from '../redux/books/books';
@@ -12,9 +11,10 @@ function AddForm() {
     e.preventDefault();
     if (title.trim() || author.trim()) {
       const newBook = {
-        id: uid(),
+        item_id: Math.floor(Math.random() * 1000),
         title,
         author,
+        category: 'My bookstore app',
       };
       dispatch(addBook(newBook));
       setTitle('');
