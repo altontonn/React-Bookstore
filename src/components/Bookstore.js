@@ -33,14 +33,27 @@ function Book(props) {
           </ul>
           <div className="progress">
             <div className="progress-amount">
-              <div className="percentage">80%</div>
-              <div className="status">Completed</div>
+              <div className="circle-wrap">
+                <div className="circle">
+                  <div className="mask full">
+                    <div className="fill" />
+                  </div>
+                  <div className="mask half">
+                    <div className="fill" />
+                  </div>
+                  <div className="inside-circle" />
+                </div>
+              </div>
+              <div className="statusLoad">
+                <div className="statusNumber">75%</div>
+                <div className="status">Completed</div>
+              </div>
             </div>
           </div>
           <div className="progress-details">
             <div className="name">CURRENT CHAPTER</div>
             <div className="current-chapter">Chapter 20</div>
-            <button type="button">Update progress</button>
+            <button className="button" type="button">Update progress</button>
           </div>
         </div>
       </div>
