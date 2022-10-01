@@ -15,6 +15,7 @@ function BookList() {
     <>
       {books.map((book) => (
         <Book
+          className="bookSet"
           key={book.item_id}
           index={book.item_id}
           title={book.title}
