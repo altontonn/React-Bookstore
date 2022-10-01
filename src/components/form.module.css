@@ -1,5 +1,7 @@
 .container {
   margin: 2.313rem 2.25rem 0;
+  border-top: 1px solid #e8e8e8;
+  width: 90vw;
 }
 
 .formContainer {
@@ -27,7 +29,6 @@
 
 .formHeader {
   height: 1.5rem;
-  padding-top: 4rem;
   font-family: "Montserrat", sans-serif;
   font-size: 1.25rem;
   font-weight: bold;

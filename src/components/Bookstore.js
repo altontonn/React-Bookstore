@@ -45,14 +45,15 @@ function Book(props) {
                 </div>
               </div>
               <div className="statusLoad">
-                <div className="statusNumber">75%</div>
+                <div className="statusNumber">64%</div>
                 <div className="status">Completed</div>
               </div>
             </div>
+            <div className="line" />
           </div>
           <div className="progress-details">
             <div className="name">CURRENT CHAPTER</div>
-            <div className="current-chapter">Chapter 20</div>
+            <div className="current-chapter">Chapter 17</div>
             <button className="button" type="button">Update progress</button>
           </div>
         </div>
