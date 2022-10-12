@@ -21,7 +21,7 @@
 
 
 ## Live Demo
-[coming soon]()
+[coming soon](https://books-library-shelf.netlify.app/)
 
 ## 🧰 Tools
 
