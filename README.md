@@ -1,6 +1,7 @@
 
 
 # React Book Store
+<img src="src/img/books-store-mock.png">
 
 > Book Store
 
