@@ -141,16 +141,16 @@ body {
 }
 
 @media screen and (max-width: 650px) {
+  .bookContainer {
+    height: auto;
+  }
+
   .bookInfo {
     width: 100%;
-    margin-left: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .bookContainer {
-    height: auto;
+    padding: 1rem 0;
   }
 }
 
@@ -212,11 +212,46 @@ body {
   display: flex;
   flex-direction: column;
   list-style: none;
-  /* width: 50%; */
+  width: 50%;
+}
+
+.controls2 {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 650px) {
+  .controls {
+    text-align: center;
+  }
+
+  .controls2 {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bookInfo h2, .bookInfo h1, .bookInfo p {
+    text-align: center;
+    width: unset;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .controls2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .line {
+    display: none;
+  }
 }
 
 .controls li {
-  /* padding-right: 2rem; */
   color: #4386bf;
 }
 
@@ -238,9 +273,6 @@ body {
 .line {
   height: 4rem;
   border-right: 1px solid #e8e8e8;
-  margin-left: 14rem;
-  margin-top: -4rem;
-  position: absolute;
 }
 
 .circle-wrap {
@@ -283,7 +315,7 @@ body {
 .statusNumber {
   width: 4.25rem;
   height: 2.438rem;
-  margin: 0.063rem 5.75rem 0 0.688rem;
+  /* margin: 0.063rem 5.75rem 0 0.688rem; */
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: normal;
@@ -346,7 +378,7 @@ body {
 }
 
 .button {
-  width: 8.938rem;
+  /* width: 8.938rem; */
   font-family: 'RobotoSlab', sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
