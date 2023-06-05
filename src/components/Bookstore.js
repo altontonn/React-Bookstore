@@ -13,48 +13,52 @@ function Book(props) {
   };
   return (
     <>
-      <div className="bookContainer">
-        <div className="bookInfo">
-          <ul className="controls">
-            <p>Action</p>
-            <li>
-              <h1>{title}</h1>
-            </li>
-            <li>
-              <h2>{author}</h2>
-            </li>
-            <li>
-              <a href="#">Comments</a>
-              <a href="#" onClick={removeItem}>
-                Remove
-              </a>
-              <a href="#">Edit</a>
-            </li>
-          </ul>
-          <div className="progress">
-            <div className="progress-amount">
-              <div className="circle-wrap">
-                <div className="circle">
-                  <div className="mask full">
-                    <div className="fill" />
+      <div className="container">
+        <div className="bookContainer">
+          <div className="bookInfo">
+            <ul className="controls">
+              <p>Action</p>
+              <li>
+                <h1>{title}</h1>
+              </li>
+              <li>
+                <h2>{author}</h2>
+              </li>
+              <li>
+                <a href="#">Comments</a>
+                <a href="#" onClick={removeItem}>
+                  Remove
+                </a>
+                <a href="#">Edit</a>
+              </li>
+            </ul>
+            <div className="progress">
+              <div className="progress-amount">
+                <div className="circle-wrap">
+                  <div className="circle">
+                    <div className="mask full">
+                      <div className="fill" />
+                    </div>
+                    <div className="mask half">
+                      <div className="fill" />
+                    </div>
+                    <div className="inside-circle" />
                   </div>
-                  <div className="mask half">
-                    <div className="fill" />
-                  </div>
-                  <div className="inside-circle" />
+                </div>
+                <div className="statusLoad">
+                  <div className="statusNumber">64%</div>
+                  <div className="status">Completed</div>
                 </div>
               </div>
-              <div className="statusLoad">
-                <div className="statusNumber">64%</div>
-                <div className="status">Completed</div>
-              </div>
+              <div className="line" />
             </div>
-            <div className="line" />
-          </div>
-          <div className="progress-details">
-            <div className="name">CURRENT CHAPTER</div>
-            <div className="current-chapter">Chapter 17</div>
-            <button className="button" type="button">Update progress</button>
+            <div className="progress-details">
+              <div className="name">CURRENT CHAPTER</div>
+              <div className="current-chapter">Chapter 17</div>
+              <button className="button" type="button">
+                Update progress
+              </button>
+            </div>
           </div>
         </div>
       </div>
