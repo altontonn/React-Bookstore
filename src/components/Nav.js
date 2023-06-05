@@ -23,7 +23,6 @@ class Nav extends React.Component {
                 <Link to="/categories">Categories</Link>
               </li>
             </ul>
-            <RouteLink />
           </div>
           <div className="nav-2">
             <div className="oval">
@@ -42,6 +41,7 @@ class Nav extends React.Component {
             </div>
           </div>
         </nav>
+        <RouteLink />
       </div>
     );
   }
